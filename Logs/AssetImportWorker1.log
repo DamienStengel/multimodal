@@ -1,0 +1,358 @@
+Unity Editor version:    2021.3.3f1 (af2e63e8f9bd)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1.1 (Build 24B91)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/karimcharleux/Developer/Unity Multimodal/multimodal
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50456
+Successfully changed project path to: /Users/karimcharleux/Developer/Unity Multimodal/multimodal
+/Users/karimcharleux/Developer/Unity Multimodal/multimodal
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 45.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/karimcharleux/Developer/Unity Multimodal/multimodal/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001055 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (357ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (258ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (53ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (13ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (0ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3433 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (41.4 KB). Loaded Objects now: 3895.
+Memory consumption went from 78.6 MB to 78.6 MB.
+Total: 2.083792 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.031208 ms MarkObjects: 1.899833 ms  DeleteObjects: 0.040875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1872.985541 seconds.
+  path: Assets/InputDeviceTester
+  artifactKey: Guid(bc14cbffbf5ae43ee92bc8b5aaa4f405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputDeviceTester using Guid(bc14cbffbf5ae43ee92bc8b5aaa4f405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5eeaeeef4e97aa70824d9df9532f1c') in 0.003452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.859163 seconds.
+  path: Assets/InputDeviceTester/Prefabs/Key Highlight - Input System.prefab
+  artifactKey: Guid(c735cc1f4a3bd9a448da92a20107e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputDeviceTester/Prefabs/Key Highlight - Input System.prefab using Guid(c735cc1f4a3bd9a448da92a20107e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0c871fdf5ad17e5628f588261613f4') in 0.622872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/InputDeviceTester/Prefabs/Other Info.prefab
+  artifactKey: Guid(74ad006243966e441ad5b54884e8e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputDeviceTester/Prefabs/Other Info.prefab using Guid(74ad006243966e441ad5b54884e8e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bc09288c3f0e5cbb2022b39e1fc60f') in 0.006892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/InputDeviceTester/Prefabs/Messages.prefab
+  artifactKey: Guid(a15cf75bdf668dd4da1daa2fdce92bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputDeviceTester/Prefabs/Messages.prefab using Guid(a15cf75bdf668dd4da1daa2fdce92bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3193ca6b8cc3494f1f3e1fb5064d62fa') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.014797 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Materials/PolygonOffice_Material_02_A.mat
+  artifactKey: Guid(8b0a463281755ef4487381aff7b669d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Materials/PolygonOffice_Material_02_A.mat using Guid(8b0a463281755ef4487381aff7b669d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1ec0a1828c765e1de9472d94f0aac') in 0.223956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Materials/PolygonOffice_Material_Glass.mat
+  artifactKey: Guid(d71c534a86de0e1409d44aa86be7d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Materials/PolygonOffice_Material_Glass.mat using Guid(d71c534a86de0e1409d44aa86be7d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd30b094575261b4562e79b88e1138c5') in 0.095122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.340108 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Door_05.fbx
+  artifactKey: Guid(2db79d8c642d8544393ca1cf25a5f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Door_05.fbx using Guid(2db79d8c642d8544393ca1cf25a5f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6096de4756f49b905863cbd7bcf28fd7') in 0.061605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_Door_01.fbx
+  artifactKey: Guid(f281bbb846d8e7c4aa4598e09b898eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_Door_01.fbx using Guid(f281bbb846d8e7c4aa4598e09b898eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2911955c3a66e8020d326b28a4078638') in 0.008002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Pillar_Exterior_04.fbx
+  artifactKey: Guid(30d3c75e35fdcb946ab2115cb3c3e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Pillar_Exterior_04.fbx using Guid(30d3c75e35fdcb946ab2115cb3c3e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ea7c95384f32ad01c45ac7525345a9') in 0.007216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Plant_02.fbx
+  artifactKey: Guid(daab884827587a44e894aacf3bab6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Plant_02.fbx using Guid(daab884827587a44e894aacf3bab6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11036515edbfff8a7cc2eb2e19932379') in 0.008047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Socket_Switch_01_Convex.asset
+  artifactKey: Guid(13f038292e318ff4fbdcf10550080eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Socket_Switch_01_Convex.asset using Guid(13f038292e318ff4fbdcf10550080eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2254c6301b064019bab1947517d919a') in 0.039683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Plant_02_Convex.asset
+  artifactKey: Guid(7dc8e961cda17154ba2347330db2839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Plant_02_Convex.asset using Guid(7dc8e961cda17154ba2347330db2839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7f10d55d79282890e0220d3a1a138') in 0.003810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Floor_Carpet_01.fbx
+  artifactKey: Guid(476a98adea211d945bca14747adedee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Floor_Carpet_01.fbx using Guid(476a98adea211d945bca14747adedee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59727e356bdd5d50956d83ce2a713a50') in 0.007378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Socket_Switch_01.fbx
+  artifactKey: Guid(8670c115b981cfc4fb7482ee23de92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Socket_Switch_01.fbx using Guid(8670c115b981cfc4fb7482ee23de92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b08bb451842b49898c446007e8a8881') in 0.006098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Rug_02.fbx
+  artifactKey: Guid(cdcb0cea53cb90a44b775e7a42e685ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Rug_02.fbx using Guid(cdcb0cea53cb90a44b775e7a42e685ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9965db1b7b4cdfe8b7489aa7b948d85') in 0.006483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Rug_02_Convex.asset
+  artifactKey: Guid(f4f4d8336cdd01b46990392810e4ae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Prop_Rug_02_Convex.asset using Guid(f4f4d8336cdd01b46990392810e4ae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f8e5e1f95be6071669f9666b5cb6ce') in 0.004019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_Window_01.fbx
+  artifactKey: Guid(7db27f2c4d8faba45bfee8956d45c88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_Window_01.fbx using Guid(7db27f2c4d8faba45bfee8956d45c88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ffb1f0a937714604245832aede948') in 0.013409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_01.fbx
+  artifactKey: Guid(400dbce2594ecec438f3d490132ba4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Models/SM_Bld_Wall_Baseboard_01.fbx using Guid(400dbce2594ecec438f3d490132ba4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53746664489ef6b7c10b1aa3c38f24c4') in 0.007446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.410304 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Floor_Carpet_01.prefab
+  artifactKey: Guid(88498815dea432045b6eaa9875ec268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Floor_Carpet_01.prefab using Guid(88498815dea432045b6eaa9875ec268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451b7d6f58fe3e1c86e20bb286e27469') in 0.017703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Wall_Baseboard_01.prefab
+  artifactKey: Guid(5a2b2aefafe7a2f4bb79271e2b6b2e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Wall_Baseboard_01.prefab using Guid(5a2b2aefafe7a2f4bb79271e2b6b2e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f79d5ebc704c672efad0d9dd8f830a') in 0.013789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Wall_Baseboard_Door_01.prefab
+  artifactKey: Guid(9bd21c6352a240b4486ab791c4744b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Wall_Baseboard_Door_01.prefab using Guid(9bd21c6352a240b4486ab791c4744b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c16de5b6556227fd3bf77c2c044bd83') in 0.012676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Pillar_Exterior_04.prefab
+  artifactKey: Guid(ef1b704e336072b4f9f0ee8e3d16b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/3DAssets/PolygonOffice/Prefabs/Buildings/SM_Bld_Pillar_Exterior_04.prefab using Guid(ef1b704e336072b4f9f0ee8e3d16b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5ea541abfc298c9736d2461ad50894') in 0.012568 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000886 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x318113000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (137ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (25.0 KB). Loaded Objects now: 3941.
+Memory consumption went from 100.5 MB to 100.5 MB.
+Total: 2.308000 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.032583 ms MarkObjects: 2.109875 ms  DeleteObjects: 0.032833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

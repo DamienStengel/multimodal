@@ -691,23 +691,41 @@
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
@@ -715,53 +733,32 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <Reference Include="Unity.InputSystem">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.InputSystem">
-     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/karimcharleux/Developer/Unity Multimodal/multimodal/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
