@@ -46,6 +46,7 @@
      <Compile Include="Assets/InputDeviceTester/Scripts/ArrowHighlight.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/GamepadOldInput.cs" />
      <Compile Include="Assets/Resources/Scripts/VRTranslate.cs" />
+     <Compile Include="Assets/Resources/Scripts/FurnitureSelectionUI.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/TextHighlight.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/ProcessorVector3ISX.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/ControllerDiagramOldInput.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/XboxISX.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/InputUIPicker.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/ProcessorQuaternionISX.cs" />
+     <Compile Include="Assets/Resources/Scripts/InteractionManager.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/KeyboardMouseISX.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/InteractionISX.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/ProcessorFloatISX.cs" />
@@ -67,8 +69,8 @@
      <Compile Include="Assets/InputDeviceTester/Scripts/InputDebugInfo.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/Input/PenISX.cs" />
      <Compile Include="Assets/InputDeviceTester/Scripts/EventsystemPicker.cs" />
-     <Compile Include="Assets/InputDeviceTester/Scripts/Input/TouchISX.cs" />
      <Compile Include="Assets/Resources/Scripts/ButtonsHandler.cs" />
+     <Compile Include="Assets/InputDeviceTester/Scripts/Input/TouchISX.cs" />
      <None Include="Assets/InputDeviceTester/Shaders/WorldCoord Diffuse.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />

@@ -8,52 +8,90 @@ public class ButtonsHandler : MonoBehaviour
     private Button teleport;
     private Button place_object;
     
-    private VRTranslate vrTranslateScript;
+    private InteractionManager interactionManager;
+    private Color defaultButtonColor;
 
     private void Start()
     {
+        // Get button references
         move = GameObject.Find("Move").GetComponent<Button>();
         teleport = GameObject.Find("Teleport").GetComponent<Button>();
         place_object = GameObject.Find("Place object").GetComponent<Button>();
         
-        vrTranslateScript = GameObject.Find("Controller").GetComponent<VRTranslate>();
-        vrTranslateScript.enabled = false;
+        // Get or add InteractionManager
+        interactionManager = GameObject.Find("Controller").GetComponent<InteractionManager>();
+        if (interactionManager == null)
+        {
+            interactionManager = GameObject.Find("Controller").AddComponent<InteractionManager>();
+        }
         
+        // Store default color
+        defaultButtonColor = move.GetComponentInChildren<TextMeshProUGUI>().color;
         
-        TextMeshProUGUI moveButtonText = move.GetComponentInChildren<TextMeshProUGUI>();
-
+        // Add button listeners
         move.onClick.AddListener(HandleMove);
         teleport.onClick.AddListener(HandleTeleport);
         place_object.onClick.AddListener(HandlePlaceObject);
+        
+        // Start in Move state
+        UpdateButtonStates(InteractionManager.InteractionState.Move);
     }
 
-    // Handler methods for each button
     private void HandleMove()
     {
-        Debug.Log("Move button clicked");
-        
-        // Toggle the script on/off
-        vrTranslateScript.enabled = !vrTranslateScript.enabled;
-        
-        // Optional: Update button text to show state
-        TextMeshProUGUI moveButtonText = move.GetComponentInChildren<TextMeshProUGUI>();
-        if (moveButtonText != null)
-        {
-            moveButtonText.text = vrTranslateScript.enabled ? "Stop Move" : "Move";
-            moveButtonText.color = vrTranslateScript.enabled ? Color.red : Color.black;
-        }
-    
+        UpdateButtonStates(InteractionManager.InteractionState.Move);
+        interactionManager.SetInteractionState(InteractionManager.InteractionState.Move);
     }
 
     private void HandleTeleport()
     {
-        Debug.Log("Teleport button clicked");
-    
+        UpdateButtonStates(InteractionManager.InteractionState.Teleport);
+        interactionManager.SetInteractionState(InteractionManager.InteractionState.Teleport);
     }
 
     private void HandlePlaceObject()
     {
-        Debug.Log("Place Object button clicked");
+        UpdateButtonStates(InteractionManager.InteractionState.PlaceObject);
+        interactionManager.SetInteractionState(InteractionManager.InteractionState.PlaceObject);
+    }
+
+    private void UpdateButtonStates(InteractionManager.InteractionState activeState)
+    {
+        // Reset all buttons to default
+        ResetButton(move);
+        ResetButton(teleport);
+        ResetButton(place_object);
+        
+        // Highlight active button
+        switch (activeState)
+        {
+            case InteractionManager.InteractionState.Move:
+                HighlightButton(move);
+                break;
+            case InteractionManager.InteractionState.Teleport:
+                HighlightButton(teleport);
+                break;
+            case InteractionManager.InteractionState.PlaceObject:
+                HighlightButton(place_object);
+                break;
+        }
+    }
+
+    private void HighlightButton(Button button)
+    {
+        TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null)
+        {
+            buttonText.color = Color.red;
+        }
+    }
+
+    private void ResetButton(Button button)
+    {
+        TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null)
+        {
+            buttonText.color = defaultButtonColor;
+        }
     }
 }
-
