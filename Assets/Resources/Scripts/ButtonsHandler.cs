@@ -35,6 +35,7 @@ public class ButtonsHandler : MonoBehaviour
         
         // Start in Move state
         UpdateButtonStates(InteractionManager.InteractionState.Move);
+        HandleMove();
     }
 
     private void HandleMove()
